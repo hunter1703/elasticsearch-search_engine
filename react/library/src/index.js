@@ -27,7 +27,6 @@ function print(props)
 		z.push(<Box title={title} author={author} line={line} txt={txt}/>);
 	}
 	ReactDOM.render(z, document.getElementById('id'));
-	curr=curr+1;
 }
 
 function get(props)
